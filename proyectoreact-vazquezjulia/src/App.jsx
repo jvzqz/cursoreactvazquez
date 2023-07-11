@@ -1,11 +1,13 @@
 import React from 'react';
-import navbar from './components/navbar/index';
+import Navbar from '../src/components/Navbar/index';
+import Itemlistcontainer from '.../src/components/Itemlistcontainer/index.jsx';
 
 function App() {
   
   return (
     <div>
-        <navbar></navbar>
+        <Navbar/>
+        <Itemlistcontainer greeting='Bienvenidos a Uva y Cuajo'/>
     </div> 
   )
 }
