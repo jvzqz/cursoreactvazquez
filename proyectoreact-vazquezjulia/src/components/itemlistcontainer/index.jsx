@@ -1,19 +1,12 @@
 import React from 'react';
 
-const itemlistconteiner = () => {
+const Itemlistcontainer = (promps) => {
  
     return (
-        <div>
-            <nav>
-                <li> Inicio</li>
-                <li> Productos</li>
-                <li> Eventos</li>
-                <li> Contacto</li>
-            </nav>
-        </div>
+      <></>
     )
  
 }
 
-export default itemlistconteiner;
+export default Itemlistcontainer;
 

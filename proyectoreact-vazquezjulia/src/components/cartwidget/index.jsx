@@ -1,4 +1,5 @@
 
+
 const carrito = () => {
  
     return (
@@ -6,9 +7,7 @@ const carrito = () => {
             <i className="bi bi-cart2"></i>
             <p>5</p>
         </div>
-    )
-
-    
+    ) 
 }
 
 export default carrito
