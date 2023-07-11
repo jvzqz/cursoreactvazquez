@@ -1,13 +1,19 @@
+import React from 'react';
 
-const mensaje = () => {
+const itemlistconteiner = () => {
  
     return (
         <div>
-            <h1>Bienvenidos a la tienda de Uva y Cuajo</h1>
+            <nav>
+                <li> Inicio</li>
+                <li> Productos</li>
+                <li> Eventos</li>
+                <li> Contacto</li>
+            </nav>
         </div>
     )
  
 }
 
-export default mensaje
+export default itemlistconteiner;
 
